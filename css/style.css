@@ -1,0 +1,23 @@
+@import 'https://fonts.googleapis.com/css?family=Roboto';
+@import './fontawesome-all.css';
+@import './columns.css';
+
+body,
+html {
+  height: 100vh;
+  font-family: 'Roboto';
+  font-size: 13px;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+.content {
+  padding: 0 10px;
+}
