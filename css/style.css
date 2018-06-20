@@ -22,9 +22,25 @@ html {
   padding: 0 10px;
 }
 
+header i {
+  height: 32px;
+  line-height: 32px !important;
+}
+
 header i.fas {
   color: #a0a0a0;
   font-size: 17px;
+}
+
+header input,
+header button {
+  height: 34px;
+}
+
+header input {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 280px;
 }
 
 .user {
