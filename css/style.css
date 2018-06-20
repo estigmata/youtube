@@ -8,7 +8,7 @@ html {
   font-family: 'Roboto';
   font-size: 13px;
   margin: 0;
-  padding: 0;
+  padding: 10px 0;
   width: 100%;
 }
 
@@ -20,4 +20,25 @@ html {
 
 .content {
   padding: 0 10px;
+}
+
+header i.fas {
+  color: #a0a0a0;
+  font-size: 17px;
+}
+
+.user {
+  border-radius: 50%;
+  display: block;
+  height: 32px;
+  line-height: 32px;
+  width: 32px;
+}
+
+.signed {
+  background-color: #999;
+  color: white;
+  font-size: 19px;
+  font-style: normal;
+  text-align: center;
 }
