@@ -1,0 +1,82 @@
+header {
+  border-bottom: 1px solid #fcfcfc;
+  padding-bottom: 15px;
+}
+
+header i {
+  height: 32px;
+  line-height: 32px !important;
+}
+
+header i.fas {
+  color: #a0a0a0;
+  font-size: 17px;
+}
+
+header i.mdi {
+  color: #a0a0a0;
+  font-size: 24px;
+}
+
+header .logo-container {
+  height: 32px;
+  white-space: nowrap;
+}
+
+header .logo-container > span {
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle;
+}
+
+header .logo {
+  height: 24px;
+  vertical-align: middle;
+  width: 80px;
+}
+
+header .search {
+  display: flex;
+  flex: 1;
+  flex-basis: auto;
+  flex-direction: row;
+  flex-grow: 2;
+  flex-shrink: 1;
+}
+
+header .search > div {
+  border: 1px solid #ccc;
+  border-top-left-radius: 3px;
+  border-bottom-left-radius: 3px;
+  height: 32px;
+  width: 520px;
+}
+
+header .search input {
+  border: none;
+  display: block;
+  padding: 7px;
+  width: 100%;
+}
+
+header .search button {
+  height: 32px;
+  line-height: 32px;
+  width: 65px;
+}
+
+header .user {
+  border-radius: 50%;
+  display: block;
+  height: 32px;
+  line-height: 32px;
+  width: 32px;
+}
+
+header .signed {
+  background-color: #999;
+  color: white;
+  font-size: 19px;
+  font-style: normal;
+  text-align: center;
+}

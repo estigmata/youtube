@@ -1,5 +1,7 @@
 @import 'https://fonts.googleapis.com/css?family=Roboto';
 @import './fontawesome-all.css';
+@import './materialdesignicons.css';
+@import './header.css';
 @import './columns.css';
 
 body,
@@ -8,7 +10,7 @@ html {
   font-family: 'Roboto';
   font-size: 13px;
   margin: 0;
-  padding: 10px 0;
+  padding: 5px 0;
   width: 100%;
 }
 
@@ -18,43 +20,227 @@ html {
   box-sizing: border-box;
 }
 
+a {
+  color: rgba(17, 17, 17, 0.6);
+  font-size: 13px;
+  font-weight: bold;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.responsive {
+  width: 100%;
+}
+
 .content {
-  padding: 0 10px;
+  padding: 0 15px;
 }
 
-header i {
-  height: 32px;
-  line-height: 32px !important;
+.main-content {
+  border-top: 2px solid #f0f0f0;
+  padding: 20px 15px;
 }
 
-header i.fas {
+.more-space {
+  padding-right: 20px;
+}
+
+.details {
+  border-bottom: 1px solid #ccc;
   color: #a0a0a0;
-  font-size: 17px;
+  padding-bottom: 10px;
 }
 
-header input,
-header button {
-  height: 34px;
+.more-details,
+.text-right {
+  text-align: right;
 }
 
-header input {
-  border: 1px solid #ccc;
-  border-radius: 5px;
-  width: 280px;
+.more-details span {
+  display: inline-flex;
+  height: 20px;
+  line-height: 20px;
+  text-transform: uppercase;
+}
+
+.more-details i {
+  margin-left: 20px;
+  margin-right: 10px;
+}
+
+.more-details i.mdi {
+  font-size: 20px;
+}
+
+.owner {
+  border-bottom: 1px solid #ccc;
+  padding: 20px 0;
+}
+
+.owner h4 {
+  margin: 0;
+  padding: 5px 0;
+}
+
+.owner span {
+  color: #a0a0a0;
+}
+
+.owner .user {
+  border-radius: 50%;
+  height: 48px;
+  float: left;
+  margin-right: 20px;
+  width: 48px;
+}
+
+.btn-subscribe {
+  background-color: #f00;
+  border: none;
+  color: #eee;
+  height: 37px;
+  font-size: 13px;
+  text-transform: uppercase;
+  width: 172;
+}
+
+.owner .resume {
+  font-size: 14px;
+  padding: 0 50px;
+}
+
+.owner .resume h6 {
+  font-size: 14px;
+  font-weight: normal;
+  margin-bottom: 0;
+  line-height: 23px;
+}
+
+.owner .resume p {
+  margin-top: 0;
+  line-height: 23px;
+}
+
+.commentaries {
+  padding-top: 20px;
+}
+
+.commentaries span,
+.commentaries span a {
+  display: inline-flex;
+  height: 24px;
+  line-height: 24px;
+}
+
+.commentaries span {
+  margin-right: 50px;
+}
+
+.commentaries span i {
+  font-size: 24px;
+  margin-right: 10px;
+}
+
+.add-comment,
+.other-commentaries,
+.video {
+  display: flex;
+  flex: 1;
+  flex-basis: auto;
+  flex-direction: row;
+  flex-grow: 2;
+  flex-shrink: 1;
+  padding-top: 20px;
+}
+
+.add-comment > div {
+  border-bottom: 1px solid #eee;
+  margin-bottom: 10px;
+  width: 100%;
+}
+
+.add-comment a {
+  text-transform: none;
 }
 
 .user {
   border-radius: 50%;
-  display: block;
-  height: 32px;
-  line-height: 32px;
-  width: 32px;
+  height: 40px;
+  margin-right: 20px;
+  width: 40px;
 }
 
-.signed {
-  background-color: #999;
-  color: white;
-  font-size: 19px;
-  font-style: normal;
+.comment strong {
+  margin-right: 10px;
+}
+
+.comment a {
+    display: inline-block;
+}
+
+.comment span {
+  color: #a0a0a0;
+  margin-right: 20px;
+}
+
+.comment span i {
+  font-size: 20px;
+}
+
+.show-replies {
+  color: #040404;
+  font-size: 15px;
+  padding-top: 10px;
+  text-transform: none;
+}
+
+.next-video {
+  border-bottom: 1px solid #ccc;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+}
+
+.next-video a {
+  display: inline-flex;
+  height: 32px;
+  line-height: 32px;
+}
+
+.next-video a:nth-child(1) {
+  text-transform: none;
+}
+
+.next-video a:nth-child(2) {
+  float: right;
+}
+
+.next-video a i {
+  font-size: 24px;
+  margin-left: 5px;
+}
+
+.video {
+  padding-top: 0;
+}
+
+.video img {
+  margin-right: 10px;
+}
+
+.video p {
+  margin: 0;
+  line-height: 21px;
+}
+
+.suggesting {
+  padding-bottom: 10px;
+}
+
+.show-more {
+  background-color: #eee;
+  display: block;
+  height: 35px;
+  line-height: 35px;
   text-align: center;
+  width: 100%;
 }
